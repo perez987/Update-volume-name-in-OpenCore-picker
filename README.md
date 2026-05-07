@@ -1,4 +1,4 @@
-## Update macOS volume name in OpenCore picker
+# Update macOS volume name in OpenCore picker
 
 OpenCore uses `.disk_label` file if it exists, otherwise it tries `.contentDetails` and, if this doesn't exist, it tries .`disk_label.contentDetails`.
 
@@ -11,6 +11,8 @@ You have 3 possible methods.
 - `cd /System/Volumes/Preboot/654436D1-8026-4D83-81DA-942C2FE63961/System/Library/CoreServices/`
 - `sudo bless --folder . --label "NOMBRE"` where NOMBRE is the name you want to be applied
 - Reboot.
+
+![Hidden-files](Hidden-files.png)
 
 To check, in Terminal, one of these commands:
 
