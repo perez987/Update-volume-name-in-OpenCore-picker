@@ -1,4 +1,4 @@
-# Update macOS volume name in OpenCore picker
+# Update macOS volume name in the OpenCore picker
 
 OpenCore uses `.disk_label` file if it exists, otherwise it tries `.contentDetails` and, if this doesn't exist, it tries .`disk_label.contentDetails`.
 
